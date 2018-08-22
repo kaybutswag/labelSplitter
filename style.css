@@ -1,0 +1,108 @@
+*{
+	color:#424242;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+	margin-left: 4%;
+	font-size: 40px;
+	color: #F9C432;
+	margin-top: 0;
+}
+
+h2{
+	margin-left: 4%;
+	font-size: 22px;
+	margin-bottom: 3%;
+}
+
+.callBox{
+	padding: 2% 4%;
+	background-color: #A9A9A9;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+h3{
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	/*line-height: 20px;*/
+	margin:0;
+}
+
+.callBox div p{
+	margin-top:5px;
+	color: white;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.rulesWrapper{
+	margin:2% 7%;
+	width:65%;
+}
+
+h4{
+	font-size: 20px;
+
+}
+
+li{
+	margin-left: 25px;
+}
+
+br{
+	height: 10px;
+}
+#buttonsDiv{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#buttonsDiv button, .fileDiv button, .buttonDiv button {
+	font-size: 14px;
+	background-color: #E8E8E8;
+	height: 48px;
+	border-radius: 30px;
+	padding: 2% 8%;
+	border:none;
+	width:240px;
+}
+
+button:hover{
+	background-color: white;
+	border: 2px solid #F9C432;
+}
+
+
+input#csv-file {
+  display: none;
+}
+ 
+
+.fileDiv{
+	display: none;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+
+#buttonsDiv p{
+	text-align: center;
+	margin-top:12px;
+	color: #F9C432;
+}

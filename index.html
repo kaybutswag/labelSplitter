@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Label Splitter</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+       <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    
+  </head>
+
+  <body>
+  	<iframe src="https://cstoolbox.netlify.com" scrolling="no" width="100%" height="146" frameborder="0" style="border:0"> 
+    </iframe>
+    <div class= "wrapper">
+    	
+	    	<h1>Label Converter</h1> 
+	    	<h2>Need to make sense of all the labels in that column?</h2>
+	    <div class="callBox">
+	    	<div><h3>Input:</h3><p>Your .CSV with column that has all a posts labels cluttered together.</p></div>
+	    	<div><h3>Output:</h3><p> A new .CSV with the labels transposed as column headers and count values in cells</p></div>
+	    </div>
+
+	    <div class="rulesWrapper">
+  
+	    	<h4>There are a few stipulations: </h4>
+		    	<ol>
+		    		<li>Godfather ipsum dolor sit amet. I'm gonna make him an offer he can't refuse.</li>
+		    		<li>I have a sentimental weakness for my children and I spoil them, as you can see. </li>
+		    		<li>We're both part of the same hypocrisy, senator, but never think it applies to my family.</li>
+		    		<li>If anything in this life is certain, if history has taught us anything, it is that you can kill anyone.</li>
+		    	</ol>
+
+		    <h4>If all goes according to plan: </h4>
+		    	<ol>
+		    		<li>Godfather ipsum dolor sit amet. I'm gonna make him an offer he can't refuse.</li>
+		    		<li>I have a sentimental weakness for my children and I spoil them, as you can see. </li>
+		    		<li>We're both part of the same hypocrisy, senator, but never think it applies to my family.</li>
+		    		<li>If anything in this life is certain, if history has taught us anything, it is that you can kill anyone.</li>
+		    	</ol>
+		    </div>
+		    <br>
+<!-- 		    <div class="buttonsDiv">
+			    <div class="fileAsk">
+				    <button class="uploadButton">
+				     	<label for="csv-file">Choose CSV for Upload</label>
+				     	<input type="file" id="csv-file" accept=".csv"> 
+				     </button>
+				     <div class="preview">
+					    <p>No files currently selected for upload</p>
+					  </div>
+			    </div>
+
+			    <div class="fileDiv">
+			    	<button class="newFile" onClick="window.location.reload()">Upload Something Different</button>
+			    </div>
+
+		    	<div class="buttonDiv"></div>
+		    </div> -->
+
+		    <!-- <form action="https://labelsplitter.herokuapp.com/file-test" method="post" id="buttonDiv"> -->
+		    <form id="buttonsDiv">
+						<input type="file" name="input_file" accept=".csv">
+						<input type="submit">
+			</form>
+		
+	    
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
